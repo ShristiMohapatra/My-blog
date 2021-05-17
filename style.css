@@ -1,96 +1,88 @@
-body {
-    padding-top: 800px;
-}
-
-.profile {
+img {
     width: 200px;
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 200px;
 }
 
-#welcome {
+body {
+    text-align: center;
+}
+
+#div1 {
     position: absolute;
     color: white;
     top: 0px;
     bottom: 0px;
-    left: 0px;
     right: 0px;
+    left: 0px;
     overflow: hidden;
-    background: linear-gradient(#99e8e4, #cc2f66);
+    background: linear-gradient(#ff5500 0%, #ad059a 100%);
     height: 400px;
     width: 100%;
     height: 100%;
     display: table;
-    opacity: 0.7;
-    z-index: 7;
+    z-index: 9;
 }
 
-h1 {
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    
-}
-
-h2 {
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 1.2;
-    font-family: monospace;
-}
-
-#bio {
-    padding: 50px;
-    text-align: center;
-    font-size: 42px;
-}
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
+.div {
+    height: 5px;
+    background-color: black;
+    width: 200px;
     margin: 8px auto;
 }
 
 p {
-    max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
-}
-
-.parallax-inner {
-    display: table-cell;
-    position: relative;
+    padding-top: 30px;
+    margin: 35px auto;
+    max-width: 800px;
     text-align: center;
-    vertical-align: middle;
+    font-size: 20px;
+    line-height: 1.4;
 }
 
-.menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 15px;
-    right: 50px;
-    cursor: pointer;
-    z-index: 9;
+#books {
+    text-align: center;
+    height: 600px ;
+    width: 800px ;
+}
+#inform{
+    text-align: center;
+    height: 600px ;
+    width: 800px ;
+    padding: 50px ;
+    background: #c7bf79;
 }
 
 .links {
     float: left;
     text-align: center;
-    padding-top:5px;
+    padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
     font-size: 20px;
     font-family: fantasy;
 }
-.links:hover{
-    background-color: greenyellow; 
+
+.links:hover {
+    background-color: greenyellow;
 }
-#name{
-   font-family: 'Cinzel Decorative', cursive;
+
+#name {
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 30px;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    z-index: 10;
+    cursor: pointer;
+}
+#hobby{
+font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
 }
